@@ -1684,11 +1684,35 @@ PrefabInstance:
       propertyPath: m_Size.z
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4940932369944111328, guid: 8c69ca73d9188fd4e86ba9fbb65ea816, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 322376560604693588, guid: 8c69ca73d9188fd4e86ba9fbb65ea816, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1238195612319690321}
   m_SourcePrefab: {fileID: 100100000, guid: 8c69ca73d9188fd4e86ba9fbb65ea816, type: 3}
+--- !u!1 &6283291320161270179 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 322376560604693588, guid: 8c69ca73d9188fd4e86ba9fbb65ea816, type: 3}
+  m_PrefabInstance: {fileID: 6002159124618460663}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1238195612319690321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6283291320161270179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5749fffcab66af04db377213054f94c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SnowBlockZone
+  forwardSlowAmount: 3
+  sideSlowAmount: 3
+  duration: 1.5
 --- !u!4 &6663476449878582041 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1095112939174698734, guid: 8c69ca73d9188fd4e86ba9fbb65ea816, type: 3}

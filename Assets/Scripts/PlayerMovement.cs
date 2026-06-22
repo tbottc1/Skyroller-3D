@@ -61,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
     {
         forwardSpeed = originalForwardSpeed - forwardSlowAmount;
         sideSpeed = sideSpeed - sideSlowAmount;
-        currentSideSmoothTime = 0.4f;
+        currentSideSmoothTime = 0.3f;
 
         yield return new WaitForSeconds(duration);
 
